@@ -1,0 +1,48 @@
+name: multi_flutter_widgets
+
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Ubunty
+      fonts:
+        - asset: assets/fonts/Ubuntu-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Ubuntu-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Ubuntu-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/Ubuntu-Regular.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Ubuntu-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Ubuntu-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Ubuntu-BoldItalic.ttf
+          weight: 700
+          style: italic
