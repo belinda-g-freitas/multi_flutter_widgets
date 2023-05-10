@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:multi_flutter_widgets/parallax/parallax_example.dart';
+import 'package:multi_flutter_widgets/widgets/expandable_fab/expandable_fab_example.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,8 +12,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter multi widgets',
       // showPerformanceOverlay: true,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.deepPurple).copyWith(scaffoldBackgroundColor: const Color.fromRGBO(18, 32, 47, 1)),
-      home: ParallaxExample(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),//.copyWith(scaffoldBackgroundColor: const Color.fromRGBO(18, 32, 47, 1)),
+      home: ExampleExpandableFab(),
     );
   }
 }

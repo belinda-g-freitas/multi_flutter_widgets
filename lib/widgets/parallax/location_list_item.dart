@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:multi_flutter_widgets/constants.dart';
-import 'package:multi_flutter_widgets/parallax/parallax_flow_delegate.dart';
+import 'package:multi_flutter_widgets/widgets/parallax/parallax_flow_delegate.dart';
 
 class LocationListItem extends StatelessWidget {
   LocationListItem({super.key, required this.imageFile, required this.name, required this.country});

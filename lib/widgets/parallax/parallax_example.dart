@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:multi_flutter_widgets/models/parallax_location.dart';
-import 'package:multi_flutter_widgets/parallax/location_list_item.dart';
+import 'package:multi_flutter_widgets/widgets/parallax/location_list_item.dart';
 
 class ParallaxExample extends StatelessWidget {
   const ParallaxExample({super.key});
